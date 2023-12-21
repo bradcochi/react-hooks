@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import UseState from "./UseState";
+import UseEffect from "./UseEffect";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <main className="content">
         <Routes>
           <Route path="/usestate" element={<UseState />} />
+          <Route path="/useeffect" element={<UseEffect />} />
         </Routes>
       </main>
     </div>
