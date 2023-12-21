@@ -3,7 +3,11 @@ import { useState, useEffect } from "react";
 function UseEffect() {
   const [count, setCount] = useState(0);
 
-  useEffect(() => {}, []);
+  useEffect(() =>
+    // The code that we want to run
+
+    // Optional return function
+    {}, []); // The dependancy array
 
   return (
     <div>
