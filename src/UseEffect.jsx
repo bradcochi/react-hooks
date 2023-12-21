@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 function UseEffect() {
   const [count, setCount] = useState(0);
 
+  useEffect(() => {}, []);
+
   return (
     <div>
       <h3>Count: {count}</h3>
