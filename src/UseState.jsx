@@ -18,6 +18,8 @@ function UseState() {
 
 export default UseState;
 
+// SIMPLE EXAMPLE OF A USTATE COUNTER USING ONCLICK
+//
 // const [count, setCount] = useState(0);
 // return (
 //   <>
