@@ -6,8 +6,10 @@ function UseEffect() {
   useEffect(() => {
     console.log("The count is:", count);
 
-    // Optional return function
-  }, [count]); // The dependancy array
+    return () => {
+      console.log("I am being cleaned up!");
+    };
+  }, [count]);
 
   return (
     <div>
