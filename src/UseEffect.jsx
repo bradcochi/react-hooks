@@ -7,7 +7,7 @@ function UseEffect() {
     console.log("The count is:", count);
 
     // Optional return function
-  }, []); // The dependancy array
+  }, [count]); // The dependancy array
 
   return (
     <div>
